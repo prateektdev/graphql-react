@@ -1,4 +1,13 @@
- 
+## Task
+
+Our task is to build a React web application that displays all the "[topics](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#topic)" related to the term "react", using the GitHub GraphQL API.
+
+The application should display how many "[stargazers](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#stargazerconnection)" each topic has. A click on a topic should display the topics related to that topic, and how many stargazers they have. And so forth.
+
+To interact with the Github GraphQL API you'll need to have
+  * a [Github API key](https://docs.github.com/en/free-pro-team@latest/graphql/guides/forming-calls-with-graphql#authenticating-with-graphql)
+  * You'll want to make use of the key in the .env file within your application
+
 ## Available Scripts
 
 In the project directory, you can run:
