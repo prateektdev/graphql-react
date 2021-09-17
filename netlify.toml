@@ -1,0 +1,7 @@
+[build]
+  publish = "dist/test-task"
+  command = "ng build --prod"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
