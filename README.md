@@ -31,5 +31,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+## For Live demo
+https://graphql-react-test-task.netlify.app/
+
+It will give 401, because valid token is not provided,
+Clone it and put your token in .env file
  
  
